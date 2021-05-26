@@ -1,0 +1,64 @@
+{
+  "animatedModels": [
+    {
+      "src": "https://urlToModel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": "0.005",
+      "animationOrder": [
+        "1",
+        "0",
+        "2"
+      ],
+      "loop": true
+    }
+  ],
+  "staticModels": [
+    {
+      "src": "https://urlToModel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": "0.005"
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://urlTovid",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "loop": true,
+      "scale": "0.005"
+    }
+  ],
+  "audio": [
+    {
+      "src": "https://urlToAudio",
+      "volume": 1,
+      "loop": "true"
+    }
+  ]
+}

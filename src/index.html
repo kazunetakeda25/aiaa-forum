@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AIAA</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5NBG6LB');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
+        //force https, 8th wall wont work without it!
+        if (location.protocol !== 'https:') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+        }
+    </script>
+</head>
+
+<body class="noselect">
+    <div id="TempCareerSelector">
+        <h2>AIAA PAGES</h2>
+        <a href="./public/aiaa-aviation-forum.html">AIAA Aviation Forum</a>
+        <a href="./public/aiaa-pe-forum.html">AIAA PE Forum</a>
+    </div>
+</body>
+
+</html>
