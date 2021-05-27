@@ -48,7 +48,7 @@ const F35Component = {
                 newElement.setAttribute('id', 'f35Spawned')
                 newElement.setAttribute('position', this.el.object3D.position)
                 newElement.setAttribute('rotation', `${this.el.object3D.rotation.x} ${this.el.object3D.rotation.y + 50} ${this.el.object3D.rotation.z}`)
-                newElement.setAttribute('scale', '0.8 0.8 0.8')
+                newElement.setAttribute('scale', '0.48 0.48 0.48')
                 newElement.setAttribute('gltf-model', '#f35')
                 newElement.setAttribute('shadow', {
                     receive: false
@@ -85,19 +85,19 @@ const F35Component = {
                     hotspotElement.setAttribute('position', this.el.object3D.position)
                     hotspotElement.setAttribute('rotation', `${this.el.object3D.rotation.x} ${this.el.object3D.rotation.y + 50} ${this.el.object3D.rotation.z}`)
                     if (i == 0) {
-                        hotspotElement.setAttribute('scale', '3 3 3')
+                        hotspotElement.setAttribute('scale', '1.8 1.8 1.8')
                     } else if (i == 1) {
-                        hotspotElement.setAttribute('scale', '4 4 4')
+                        hotspotElement.setAttribute('scale', '2.4 2.4 2.4')
                     } else if (i == 2) {
-                        hotspotElement.setAttribute('scale', '2 2 2')
+                        hotspotElement.setAttribute('scale', '1.2 1.2 1.2')
                     } else if (i == 3) {
-                        hotspotElement.setAttribute('scale', '3.65 3.65 3.65')
+                        hotspotElement.setAttribute('scale', '2.19 2.19 2.19')
                     } else if (i == 4) {
-                        hotspotElement.setAttribute('scale', '4.28 4.28 4.28')
+                        hotspotElement.setAttribute('scale', '2.568 2.568 2.568')
                     } else if (i == 5) {
-                        hotspotElement.setAttribute('scale', '3 3 3')
+                        hotspotElement.setAttribute('scale', '1.8 1.8 1.8')
                     } else if (i == 6) {
-                        hotspotElement.setAttribute('scale', '3.5 3.5 3.5')
+                        hotspotElement.setAttribute('scale', '2.1 2.1 2.1')
                     }
                     hotspotElement.setAttribute('gltf-model', hotspotIds[i])
                     hotspotElement.setAttribute('class', 'cantap')
@@ -123,7 +123,7 @@ const F35Component = {
                 adsElement.setAttribute('id', 'f35-ads')
                 adsElement.setAttribute('position', `${this.el.object3D.position.x} ${this.el.object3D.position.y} ${this.el.object3D.position.z}`)
                 adsElement.setAttribute('rotation', `${this.el.object3D.rotation.x} ${this.el.object3D.rotation.y + 50} ${this.el.object3D.rotation.z}`)
-                adsElement.setAttribute('scale', '0.8 0.8 0.8')
+                adsElement.setAttribute('scale', '0.48 0.48 0.48')
                 adsElement.setAttribute('gltf-model', '#f35-advertisement')
                 adsElement.setAttribute('shadow', {
                     receive: false
