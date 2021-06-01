@@ -35,7 +35,8 @@ const RocketTakeOffComponent = {
     onLoadComplete() {
         setTimeout(() => {
             this.pointCameraContainer.style.display = "none"
-            this.cursor.setAttribute('src', '#reticle')
+            
+            this.cursor.setAttribute('src', '#reticle_aiaa')
 
             this.el.sceneEl.addEventListener('click', (event) => {
                 const rocketSpawned = document.getElementById('rocketSpawned')

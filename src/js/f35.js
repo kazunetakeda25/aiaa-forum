@@ -35,7 +35,8 @@ const F35Component = {
     onLoadComplete() {
         setTimeout(() => {
             this.pointCameraContainer.style.display = "none"
-            this.cursor.setAttribute('src', '#reticle')
+
+            this.cursor.setAttribute('src', '#reticle_lockheed')
 
             this.el.sceneEl.addEventListener('click', (event) => {
                 const f35Spawned = document.getElementById('f35Spawned')
